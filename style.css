@@ -15,15 +15,28 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 
 header{
     height: 200px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log{
+    height: 96px;
+    width: 96px;
+    background-color: lightgray;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 main{
     flex-grow: 1;
-    background-color: yellowgreen;
+    background-color: pink;
 }
 footer{
     height: 100px;
