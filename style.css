@@ -41,6 +41,34 @@ main{
 .conteudo{
     width: 50%;
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 96px;
+}
+.conteudo p{
+    font-size: 40px;
+    width: 80%;;
+}
+.ação button{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+.social {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 96px;
+    width: 96px;
+    background-color: lightgray;
+    border-radius: 50%;
 }
 .destaque{
     width: 50%;
