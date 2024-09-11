@@ -16,6 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: rgb(247, 166, 174);
 }
 
 header{
@@ -24,10 +25,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.log{
+.logo{
     height: 96px;
     width: 96px;
     background-color: lightgray;
+    
 }
 .menu ul{
     display: flex;
@@ -71,7 +73,13 @@ main{
 }
 .destaque{
     width: 50%;
-    background-color: lightgray;
+    background-image: url(https://s3.amazonaws.com/images.ecwid.com/images/34042488/2871590374.jpg);
+    
+}
+.destaque img{
+    height: 90%;
+    width: 80%;
+
 }
 footer{
     height: 100px;
