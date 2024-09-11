@@ -36,7 +36,15 @@ header{
 }
 main{
     flex-grow: 1;
-    background-color: pink;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    background-color: blueviolet;
+}
+.destaque{
+    width: 50%;
+    background-color: lightgray;
 }
 footer{
     height: 100px;
