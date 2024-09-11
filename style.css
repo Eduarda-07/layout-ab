@@ -40,7 +40,6 @@ main{
 }
 .conteudo{
     width: 50%;
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
