@@ -27,9 +27,8 @@ header{
 }
 .logo{
     height: 96px;
-    width: 96px;
-    background-color: lightgray;
-    
+    width: 500px;
+    background-image: url(https://3.bp.blogspot.com/-CWZyXQxAI7o/YFK5N4CvNCI/AAAAAAAAAEs/D6pgz4RnBuoxZ9E6IxwB4W4DoOtwqJXIgCK4BGAYYCw/s1600/ultramo.png);
 }
 .menu ul{
     display: flex;
@@ -45,6 +44,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .conteudo h1{
     font-size: 96px;
